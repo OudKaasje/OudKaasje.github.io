@@ -1,6 +1,9 @@
 ul{
     
-a.one:link {color:red;}
+
+
+
+a.two:link {color:red;}
 a.one:visited {color:#0110ff;}
 a.one:hover {font-family:monospace;}
 a.one:hover {color:#ffcc00;}
