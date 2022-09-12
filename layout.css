@@ -12,6 +12,11 @@ ul
         background-color: rgb(249, 249, 249);
         color: rgb(0, 0, 0);
       }
+      ul.demo {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
 
             
 #body1 {background-color: aquamarine;}
