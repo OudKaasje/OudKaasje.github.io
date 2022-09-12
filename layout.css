@@ -2,7 +2,7 @@ ul
     a:link, a:visited {
         background-color: ;
         color: rgb(0, 0, 0);
-        border: 2px solid rgb(174, 107, 225);
+        border: 2px solid rgb(177, 110, 228);
         padding: 10px 20px;
         text-align: center;
         text-decoration: none;
@@ -12,11 +12,7 @@ ul
         background-color: rgb(0, 0, 0);
         color: whitesmoke;
       }
-      ul.demo {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
+    
 
             
 #body1 {background-color: aquamarine;}
