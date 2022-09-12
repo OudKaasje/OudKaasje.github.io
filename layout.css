@@ -1,17 +1,16 @@
 ul
     a:link, a:visited {
         background-color: ;
-        color: black;
-        border: 2px solid blue;
+        color: rgb(255, 255, 255);
+        border: 2px solid rgb(174, 107, 225);
         padding: 10px 20px;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
-      }
+        display: inline-block;}
       
       a:hover, a:active {
-        background-color: blue;
-        color: white;
+        background-color: rgb(249, 249, 249);
+        color: rgb(0, 0, 0);
       }
 
             
