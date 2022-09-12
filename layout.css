@@ -1,7 +1,7 @@
 ul
     a:link, a:visited {
         background-color: ;
-        color: white;
+        color: black;
         border: 2px solid rgb(174, 107, 225);
         padding: 10px 20px;
         text-align: center;
@@ -9,8 +9,8 @@ ul
         display: inline-block;}
       
       a:hover, a:active {
-        background-color: whitesmoke;
-        color: black;
+        background-color: black;
+        color: whitesmoke;
       }
       ul.demo {
         list-style-type: none;
