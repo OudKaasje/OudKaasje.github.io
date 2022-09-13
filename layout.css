@@ -4,7 +4,7 @@ ul
     padding: 0;
     overflow: hidden;
     background-color: black; }
-  li {  float: left;}
+  li {  float: left; border-right: 1px solid white;}
   
   li a {display: block;
     color: white;
