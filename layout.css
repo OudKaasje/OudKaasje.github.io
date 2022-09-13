@@ -9,10 +9,10 @@ ul
   li a {display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 20px;
     text-decoration: none;}
   
-  li a:hover:not(.active) {background-color: #111; }
+  li a:hover:not(.active) {background-color: lightblue; }
   
   .active {background-color: lightblue;}
 
