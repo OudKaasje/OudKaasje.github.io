@@ -19,6 +19,6 @@ ul
             
 #body1 {background-image: url("informatica.jpg")}
 h1 {color: white; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: medium; text-transform: uppercase; font-size: 30px;}
+  font-size: medium; font-size: 32px; text-decoration: underline;}
 p {color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;}
