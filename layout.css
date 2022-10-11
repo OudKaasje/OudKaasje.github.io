@@ -13,7 +13,6 @@ ul
     text-decoration: none;}
   
   li a:hover:not(.active) {background-color: lightblue; color: black }
-  
   .active {background-color: lightblue;}
 
             
