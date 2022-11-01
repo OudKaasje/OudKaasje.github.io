@@ -13,7 +13,8 @@ ul
     text-decoration: none;}
   
   li a:hover:not(.active) {background-color: lightblue; color: black }
-  .active {background-color: lightblue;}
+  .active {background-color: lightblue;
+  color: black}
 
             
 #body1 {background-image: url("informatica.jpg")}
