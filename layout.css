@@ -22,4 +22,9 @@ h1 {color: white; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans R
 p {color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 19px;}
 
-
+footer  {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(148, 148, 255);
+  color: black;
+}
