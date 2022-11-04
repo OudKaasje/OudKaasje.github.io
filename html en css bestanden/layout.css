@@ -9,7 +9,7 @@ ul
   li a {display: block;
     color: white;
     text-align: center;
-    padding: 22px 24px;
+    padding: 22px 30px;
     text-decoration: none;}
   
   li a:hover:not(.active) {background-color: lightblue; color: black }
