@@ -44,9 +44,9 @@ p {
 }
 
 footer {
-  text-decoration: #111 ;/* Letterkleur in de footer */
+  color: white;/* Letterkleur in de footer */
   font-size: 13px; /* Lettergrootte in de footer */
-  background-color: lightblue; /* Achtergrondkleur in de footer */
+  background-color: #111; /* Achtergrondkleur in de footer */
   border: 2px solid white; /* Dikte en kleur rand om de footer */
   text-align: center; /* Plek van de tekst in de footer */
 }
