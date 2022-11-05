@@ -26,12 +26,10 @@ li a:hover:not(.active) { /* Deze code zorgt ervoor dat het blokje van de naviga
             
 #body1 {
   background-image: url("/afbeeldingen/informatica.jpg"); /* Achtergrond op paginas met body id 1 */
-  color: white; /* tekstkleur op paginas met body id 1 */
 }
 
 #body2 {
   background-image: url("/afbeeldingen/achtergrond.jpg"); /* Achtergrond op paginas met body id 2 */
-  color: black; /* tekstkleur op paginas met body id 2 */
 }
 
 
@@ -44,16 +42,9 @@ h1 {
   text-decoration-color: lightblue;  /* Kleur tekst decoratie in mijn kopje */
 }
 
-p #body1{
+p {
   color: white; /* Letterkleur in mijn paragrafen */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in paragrafen */
-  font-size: 30px; /* Lettergrootte in mijn paragrafen */
-}
-
-p #body2{
-  color: black; /* Letterkleur in mijn paragrafen */
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in paragrafen */
-  font-size: 30px; /* Lettergrootte in mijn paragrafen */
 }
 
 footer {
