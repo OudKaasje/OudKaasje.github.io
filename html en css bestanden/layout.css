@@ -1,8 +1,7 @@
 ul
-{ list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+{ list-style-type: none; /* Deze code zorgt ervoor dat de unordered list niet gemaakt wordt van opgesomde puntjes of streepjes */
+    margin: 0; /* Deze code zorgt ervoor dat er geen ruimte zit tussen elementen, dat die gewoon links boven begint ipv ergens anders in de pagina */
+    padding: 0; /* Deze code zorgt ervoor dat er weinig ruimte zit tussen de tekst en de rand van het blok. Als je deze omhoog zet dan komt er veel ruimte tussen het blokje en de tekst */ 
     background-color: black; }
   li {  float: left; border-right: 1px solid white;}
   
@@ -12,8 +11,10 @@ ul
     padding: 22px 30px;
     text-decoration: none;}
   
-  li a:hover:not(.active) {background-color: lightblue; color: black }
-  .active {background-color: lightblue; color: black}
+  li a:hover:not(.active) { /* Deze code zorgt ervoor dat het blokje van de navigation bar verandert als je er overheen gaat */
+    background-color: lightblue; /* Kleur van het blokje als je er overheen gaat */
+    color: black; /* Kleur van de tekst in het blokje als je er overheen gaat */
+  } 
             
 body {
   background-image: url("/afbeeldingen/informatica.jpg") /* Achtergrond op mijn paginas */
