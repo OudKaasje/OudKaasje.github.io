@@ -39,5 +39,5 @@ footer {
   background-color: lightblue; /* Achtergrondkleur in de footer */
   border: 2px solid white; /* Dikte en kleur rand om de footer */
   color: #111; /* Letterkleur in de footer */
-  text-align: center;
+  text-align: center; /* Plek van de tekst in de footer */
 }
