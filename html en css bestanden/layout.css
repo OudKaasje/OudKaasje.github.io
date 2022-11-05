@@ -29,7 +29,7 @@ li a:hover:not(.active) { /* Deze code zorgt ervoor dat het blokje van de naviga
 }
 
 #body2 {
-  background-image: url("/afbeeldingen/achtergrond.jpg"); /* Achtergrond op paginas met body id 2 */
+  background-image: url("/afbeeldingen/info.jpg"); /* Achtergrond op paginas met body id 2 */
 }
 
 
