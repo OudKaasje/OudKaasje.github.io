@@ -25,9 +25,9 @@ p {color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Gran
     font-size: 19px;}
 
 footer {
-  font-size: 13px;
+  font-size: 13px; 
   background-color: lightblue;
   border: 2px solid white;
-  color: black;
+  color: solid black;
   text-align: center;
 }
