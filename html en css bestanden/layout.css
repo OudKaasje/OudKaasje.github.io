@@ -47,13 +47,13 @@ h1 {
 p #body1{
   color: white; /* Letterkleur in mijn paragrafen */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in paragrafen */
-  font-size: 19px; /* Lettergrootte in mijn paragrafen */
+  font-size: 30px; /* Lettergrootte in mijn paragrafen */
 }
 
 p #body2{
   color: black; /* Letterkleur in mijn paragrafen */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in paragrafen */
-  font-size: 19px; /* Lettergrootte in mijn paragrafen */
+  font-size: 30px; /* Lettergrootte in mijn paragrafen */
 }
 
 footer {
