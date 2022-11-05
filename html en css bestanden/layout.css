@@ -2,6 +2,7 @@ ul
 { list-style-type: none; /* Deze code zorgt ervoor dat de unordered list niet gemaakt wordt van opgesomde puntjes of streepjes */
     margin: 0; /* Deze code zorgt ervoor dat er geen ruimte zit tussen elementen, dat die gewoon links boven begint ipv ergens anders in de pagina */
     padding: 0; /* Deze code zorgt ervoor dat er weinig ruimte zit tussen de tekst en de rand van het blok. Als je deze omhoog zet dan komt er veel ruimte tussen het blokje en de tekst */ 
+    overflow: hidden;
     background-color: black; }
   li {  float: left; border-right: 1px solid white;}
   
