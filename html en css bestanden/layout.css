@@ -16,7 +16,7 @@ ul
   .active {background-color: lightblue; color: black}
             
 body {
-  background-image: url("/afbeeldingen/informatica.jpg")
+  background-image: url("/afbeeldingen/informatica.jpg") /* Achtergrond op mijn paginas */
 }
 
 h1 {
