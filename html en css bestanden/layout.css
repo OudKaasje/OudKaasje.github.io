@@ -16,6 +16,7 @@ li a { /* Dit is de opmaak van de blokjes in de navigation bar */
     color: white; /* Hiermee geef ik de kleur aan van de tekst in de blokjes*/
     text-align: center; /* Hiermee geef ik aan waar in het blokje de tekst moet staan*/
     padding: 22px 30px; /* Hiermee geef ik de breedte en de lengte van het blokje aan*/
+    text-decoration: solid;
 }
   
 li a:hover:not(.active) { /* Deze code zorgt ervoor dat het blokje van de navigation bar verandert als je er overheen gaat */
