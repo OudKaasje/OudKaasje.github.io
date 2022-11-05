@@ -24,8 +24,12 @@ li a:hover:not(.active) { /* Deze code zorgt ervoor dat het blokje van de naviga
     color: black; /* Kleur van de tekst in het blokje als je er overheen gaat */
   } 
             
-body {
-  background-image: url("/afbeeldingen/informatica.jpg") /* Achtergrond op mijn paginas */
+#body1 {
+  background-image: url("/afbeeldingen/informatica.jpg"); /* Achtergrond op paginas met body id 1 */
+}
+
+#body2 {
+  background-image: url("/afbeeldingen/achtergrond.jpg"); /* Achtergrond op paginas met body id 2 */
 }
 
 h1 {
