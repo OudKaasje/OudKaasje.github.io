@@ -86,5 +86,5 @@ footer {
   display: block;
 }
 .dropdown-content a:hover {background-color: lightblue; color: black;}
-.dropdown:hover .dropdown-content {display: block;}
+/*.dropdown:hover .dropdown-content {display: block;}*/
 .dropdown:hover .dropbtn {background-color: lightblue; color: black;}
