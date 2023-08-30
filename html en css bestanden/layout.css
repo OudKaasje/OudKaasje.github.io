@@ -1,10 +1,10 @@
-ul { 
-  list-style-type: none; /* Deze code zorgt ervoor dat de unordered list niet gemaakt wordt van opgesomde puntjes of streepjes */
+/*ul { 
+  list-style-type: none; /* Deze code zorgt ervoor dat de unordered list niet gemaakt wordt van opgesomde puntjes of streepjes 
   margin: 0; /* Deze code zorgt ervoor dat er geen ruimte zit tussen elementen, dat die gewoon links boven begint ipv ergens anders in de pagina */
-  padding: 0; /* Deze code zorgt ervoor dat er weinig ruimte zit tussen de tekst en de rand van het blok. Als je deze omhoog zet dan komt er veel ruimte tussen het blokje en de tekst */ 
-  overflow: hidden; /* Hiermee is het blokje beperkt en zou de tekst niet uit het blokje gaan */
+  /*padding: 0; /* Deze code zorgt ervoor dat er weinig ruimte zit tussen de tekst en de rand van het blok. Als je deze omhoog zet dan komt er veel ruimte tussen het blokje en de tekst */ 
+  /*overflow: hidden; /* Hiermee is het blokje beperkt en zou de tekst niet uit het blokje gaan 
   background-color: black; /* Hiermee geef ik de achtergrond van de navigation bar een kleur */
-}
+  
  
 /*li {  /* Dit is de plek en omtrek van de blokjes in de navigation bar */
  /* float: left; /* hiermee zorg ik dat de blokjes van links naar rechts gaan*/
@@ -17,12 +17,12 @@ ul {
     /*text-align: center; /* Hiermee geef ik aan waar in het blokje de tekst moet staan*/
     /*padding: 22px 30px; /* Hiermee geef ik de breedte en de lengte van het blokje aan*/
     /*text-decoration: none; /* Hiermee geef ik aan dat het normale tekst is en geen decoratie zoals schuine streep eronder*/
-}
+/*}
   
 /*li a:hover:not(.active) { /* Deze code zorgt ervoor dat het blokje van de navigation bar verandert als je er overheen gaat */
   /*  background-color: lightblue; /* Kleur van het blokje als je er overheen gaat */
-    /*color: black; /* Kleur van de tekst in het blokje als je er overheen gaat */
-  } 
+    /*color: black; /* Kleur van de tekst in het blokje als je er overheen gaat 
+  } */
             
 body {background-color: darkkhaki}
 
