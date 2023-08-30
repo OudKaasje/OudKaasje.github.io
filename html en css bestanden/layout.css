@@ -24,12 +24,7 @@ ul {
     /*color: black; /* Kleur van de tekst in het blokje als je er overheen gaat */
   } 
             
-#body1 {
-  background-color: blueviolet;
-}
-
-#body2 {
-  background-color: darkkhaki}
+body {background-color: darkkhaki}
 
 
 h1 {
