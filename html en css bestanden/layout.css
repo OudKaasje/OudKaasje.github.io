@@ -126,6 +126,7 @@ footer {
   padding: 14px 16px;
   text-decoration: none;
   border-right: 3px solid black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .dropdown {
@@ -140,8 +141,9 @@ footer {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
+  border-right: 3px solid black;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
