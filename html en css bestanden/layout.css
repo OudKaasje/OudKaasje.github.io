@@ -132,6 +132,7 @@ footer {
 .dropdown {
   float: left;
   overflow: hidden;
+  border-right: 3px solid black;
 }
 
 .dropdown .dropbtn {
@@ -143,7 +144,6 @@ footer {
   background-color: inherit;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
-  border-right: 3px solid black;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
