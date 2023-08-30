@@ -26,12 +26,10 @@ ul {
             
 #body1 {
   background-color: blueviolet;
-  /*background-image: url("/afbeeldingen/informatica.jpg"); /* Achtergrond op paginas met body id 1 */
 }
 
 #body2 {
-  background-image: url("/afbeeldingen/joejoe.png"); /* Achtergrond op paginas met body id 2 */
-}
+  background-color: darkkhaki}
 
 
 h1 {
