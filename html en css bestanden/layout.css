@@ -58,8 +58,7 @@ footer {
 .dropbtn {
   float: left;
   font-size: 22px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in mijn kopje */
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
