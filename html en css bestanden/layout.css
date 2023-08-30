@@ -75,7 +75,7 @@ footer {
   overflow: hidden;
 }
 
-.dropdown .dropbtn {
+.dropdown a {
   font-size: 22px;  
  border: none;
   outline: none;
