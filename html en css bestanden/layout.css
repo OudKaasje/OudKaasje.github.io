@@ -55,6 +55,17 @@ footer {
   background-color: #333;
 }
 
+.dropbtn {
+  float: left;
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in mijn kopje */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 3px solid black;
+}
+
 .navbar a {
   float: left;
   font-size: 22px;
@@ -90,7 +101,6 @@ footer {
   display: none;
   position: absolute;
   background-color: #333;
-
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
