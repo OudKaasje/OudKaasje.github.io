@@ -53,11 +53,16 @@ footer {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in mijn kopje */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
 }
 
 .navbar a {
   float: left;
-  font-size: 30px;
+  font-size: 22px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in mijn kopje */
   color: white;
   text-align: center;
@@ -71,7 +76,7 @@ footer {
 }
 
 .dropdown .dropbtn {
-  font-size: 30px;  
+  font-size: 22px;  
  border: none;
   outline: none;
   color: white;
