@@ -25,7 +25,8 @@ ul {
   } 
             
 #body1 {
-  background-image: url("/afbeeldingen/informatica.jpg"); /* Achtergrond op paginas met body id 1 */
+  background-color: beige;
+  /*background-image: url("/afbeeldingen/informatica.jpg"); /* Achtergrond op paginas met body id 1 */
 }
 
 #body2 {
