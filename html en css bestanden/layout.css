@@ -38,7 +38,6 @@ h1 {
 }
 
 p {
-  column-count: 2;
   color: white; /* Letterkleur in mijn paragrafen */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in paragrafen */
   font-size: 20px; /* Lettergrootte in mijn paragrafen */
