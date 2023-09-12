@@ -28,15 +28,17 @@ body {background-color: darkkhaki}
 
 
 h1 {
+  
   color: white; /* Letterkleur in mijn kopje */
   text-align: center; /* Plek van de tekst in kopje */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in mijn kopje */
-  font-size: 32px; /* Lettergrootte in mijn kopje */
+  font-size: 32px; /*Lettergrootte in mijn kopje*/ 
   text-decoration: underline; /* Tekst decoratie in mijn kopje */
   text-decoration-color: lightblue;  /* Kleur tekst decoratie in mijn kopje */
 }
 
-p {
+.newspaper {
+  column-count: 3;
   color: white; /* Letterkleur in mijn paragrafen */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in paragrafen */
   font-size: 20px; /* Lettergrootte in mijn paragrafen */
