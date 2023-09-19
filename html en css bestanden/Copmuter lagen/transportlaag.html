@@ -58,6 +58,59 @@
        <h1> Transport laag <!-- Hiermee geef ik mijn pagina een hoofdkopje--> 
        </h1>
 
+<p>De transportlaag,  in het OSI-model (Open Systems Interconnection-model) ook wel laag 4 genoemd, is een van 
+  de zeven lagen en speelt een essentiële rol bij de overdracht van gegevens tussen twee apparaten in een netwerk.
+  De transportlaag zorgt voor end-to-end communicatie, verzendt op betrouwbare wijze gegevens, detecteert en 
+  corrigeert fouten  en beheert de communicatie. <br>
+  Hier zijn enkele van de belangrijkste functies en kenmerken  van de transportlaag: <br>
+  <br>
+  Segmentatie en hermontage: <br>
+  De transportlaag verdeelt grote hoeveelheden gegevens in kleinere eenheden die segmenten worden genoemd. 
+  Deze segmenten kunnen vervolgens afzonderlijk  over het netwerk worden verzonden. Aan de ontvangende kant
+   reconstrueert de transportlaag de segmenten en herstelt de oorspronkelijke datastroom. <br>
+   <br>
+  End-to-end communicatie: <br>
+  De transportlaag zorgt ervoor dat gegevens van de bron naar de bestemming worden verzonden en omgekeerd. 
+  Het biedt end-to-end-communicatie en houdt rekening met mogelijke tussenapparaten en routers.  <br>
+  <br>
+</p>
+
+<a href="https://www.youtube.com/watch?v=Ilk7UXzV_Qc" target="_blank">
+  <img src="/afbeeldingen/ldb-osi.jpg" alt="https://www.youtube.com/watch?v=Ilk7UXzV_Qc" style="float:left;width:550px;height: 450px;"></a> 
+
+<p>
+  Foutdetectie en -correctie:<br>
+  De transportlaag detecteert fouten met behulp van controlesommen of andere mechanismen om ervoor te zorgen
+  dat  gegevens tijdens de verzending niet zijn beschadigd. Als er fouten worden gedetecteerd, kan de 
+  transportlaag proberen de gegevens te herstellen of op te halen. <br>
+  <br>
+  Flow control:<br>
+  De transportlaag reguleert de overdrachtssnelheid om netwerkcongestie en congestie te voorkomen.
+  Dit gebeurt vaak  via mechanismen zoals TCP (Transmission Control Protocol), dat  ACK (Acknowledgement)
+  en vensterbeheer gebruikt om de gegevensstroom te controleren. <br>
+  <br>
+  Multiplexing en demultiplexing: <br>
+  De transportlaag gebruikt poortnummers om te bepalen welke doeltoepassing
+  of dienst  de gegevens moet ontvangen. Dit wordt kanalisatie aan de zendzijde en demultiplexing aan de
+  ontvangstzijde genoemd. <br>
+  <br>
+  Betrouwbaarheid: <br>
+  Transportprotocollen zoals TCP zorgen voor een betrouwbare gegevensoverdracht en leveren
+  gegevens in de juiste volgorde en zonder verlies. Dit is belangrijk voor toepassingen die een
+  nauwkeurige en foutloze gegevensoverdracht vereisen.<br>
+  <br>
+  Onbetrouwbaar transport: <br>
+  Naast betrouwbaar transport biedt de transportlaag ook protocollen zoals User Datagram Protocol (UDP),
+  die minder betrouwbaar zijn maar minder overhead hebben. UDP wordt vaak gebruikt in realtime 
+  toepassingen zoals streaming media en online gaming.  <br>
+  <br>
+  Kortom, de transportlaag speelt een cruciale rol in de end-to-end communicatie binnen een netwerk. Het biedt
+   betrouwbaarheid, foutdetectie en -correctie, flow control en andere functies die nodig zijn voor de juiste 
+   werking van applicaties die gegevens via netwerken verzenden en ontvangen. TCP en UDP zijn  de bekendste 
+   protocollen die op de transportlaag werken. <br>
+
+</p>
+
         <footer> <!-- Hiermee stel ik mijn footer in-->
             <p> Ontworpen door Jochem Versteegen<br>
                 Heeft u nog verbeteren of wilt u met mij in contact komen? Dan kunt u mij mailen
