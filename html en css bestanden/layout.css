@@ -31,7 +31,8 @@ footer {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  border-right: 3px solid black;
+  border-right: 4px lightblue;
+  border-left: 4px lightblue;
 }
 
 .navbar a {
@@ -47,7 +48,7 @@ footer {
 .dropdown {
   float: left;
   overflow: hidden;
-  border-right: 4px solid black; 
+  border-right: 4px lightblue; 
 }
 
 .dropdown .dropbtn {
