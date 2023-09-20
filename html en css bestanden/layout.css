@@ -126,14 +126,14 @@ footer {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-right: 3px black;
+  border-right: 3px rgb(250, 0, 0);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
-  border-right: 3px black;
+  border-right: 3px rgb(255, 0, 0);
 }
 
 .dropdown .dropbtn {
