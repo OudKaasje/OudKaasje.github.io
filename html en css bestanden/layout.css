@@ -31,7 +31,6 @@ footer {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  border-right: 3px rgb(250, 0, 0);
 }
 
 .navbar a {
@@ -41,14 +40,14 @@ footer {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-right: 3px rgb(250, 0, 0);
+  border-right: 4px solid black; 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
-  border-right: 3px rgb(255, 0, 0);
+  border-right: 4px solid black; 
 }
 
 .dropdown .dropbtn {
