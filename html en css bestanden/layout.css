@@ -179,3 +179,16 @@ footer {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'left left middle middle right right';
+  grid-column-gap: 10px;} 
+
+.column {
+  padding: 20px;
+  height: 300px;
+  width: 200px;
+  background-color: lightblue;
+  color: black;
+}
