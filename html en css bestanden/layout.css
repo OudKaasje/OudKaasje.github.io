@@ -31,6 +31,7 @@ footer {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  border-right: 3px rgb(250, 0, 0);
 }
 
 .navbar a {
