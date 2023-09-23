@@ -94,12 +94,3 @@ footer {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-article {
-  float: left;
-  padding: 1em;
-  width: 35%;
-  height: auto;
-  background-color: black;
-  margin: 0.6% 2% 2% 2%;
-}
