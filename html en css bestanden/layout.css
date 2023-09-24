@@ -108,6 +108,7 @@ footer {
   padding: 14px 16px; 
   text-decoration: none; 
   border-right: 3px solid black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Basisstijlen voor het dropdown-menu */
@@ -125,6 +126,7 @@ footer {
   padding: 14px 16px;
   background-color: inherit;
   margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -150,6 +152,7 @@ footer {
   text-decoration: none;
   display: block;
   text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Hover-effect voor de dropdown-opties */
