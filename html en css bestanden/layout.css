@@ -1,6 +1,7 @@
     
 body {
-  background-image: url(/afbeeldingen/arberg.jpg)
+  background-image: url(/afbeeldingen/arberg.jpg);
+  font-family : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -132,6 +133,8 @@ footer {
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: lightblue;
   color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 /* Stijlen voor het zichtbare deel van de dropdown */
@@ -142,6 +145,8 @@ footer {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .dropdown-content a {
@@ -159,6 +164,8 @@ footer {
 .dropdown-content a:hover {
   background-color: lightblue;
   color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 /* Zorg ervoor dat de dropdown zichtbaar wordt wanneer je eroverheen beweegt */
