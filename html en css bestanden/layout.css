@@ -1,8 +1,10 @@
     
-body {
+#body1 {
   background-image: url(/afbeeldingen/boe.jpg);
 }
-
+#body2 {
+  background-image: url(/afbeeldingen/arberg.jpg);
+}
 
 h1 {
   
