@@ -1,13 +1,13 @@
-    
+   /* Dit is een CSS-stijl voor mijn paginas */ 
 #body1 {
-  background-image: url(/afbeeldingen/boe.jpg);
+  background-image: url(/afbeeldingen/boe.jpg); /* hiermee stel ik de achtergrond in van de bodys met id 1*/
 }
 #body2 {
-  background-image: url(/afbeeldingen/arberg.jpg);
+  background-image: url(/afbeeldingen/arberg.jpg);/* hiermee stel ik de achtergrond in van de bodys met id 2*/
 }
 
-h1 {
-  
+/* Dit is een CSS-stijl voor mijn kopjes */
+h1 {  
   color: white; /* Letterkleur in mijn kopje */
   text-align: center; /* Plek van de tekst in kopje */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype in mijn kopje */
@@ -16,12 +16,14 @@ h1 {
   text-decoration-color: lightblue;  /* Kleur tekst decoratie in mijn kopje */
 }
 
+/* Dit is een CSS-stijl voor mijn paragrafen */
 p {
   color: white; /* Letterkleur in mijn paragrafen */
     font-size: 22px; /* Lettergrootte in mijn paragrafen */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+/* Dit is een CSS-stijl voor een footer */
 footer {
   color: white;/* Letterkleur in de footer */
   font-size: 18px; /* Lettergrootte in de footer */
@@ -31,85 +33,80 @@ footer {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Dit is een CSS-stijl voor een navigatiebalk (navbar). */
 .navbar {
-  overflow: hidden;
-  background-color: #333;
+  overflow: hidden; /* Verborgen overloop om de inhoud binnen de balk te houden */
+  background-color: #333; /* Achtergrondkleur van de navigatiebalk */
 }
 
+/* Dit zijn de stijlen voor koppelingen (links) in de navigatiebalk. */
 .navbar a {
-  float: left;
-  font-size: 22px;
-  color: white;
-  text-align: center; 
-  padding: 14px 16px; 
-  text-decoration: none; 
-  border-right: 3px solid black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  float: left; /* Tekst links uitlijnen */
+  font-size: 22px; /* Lettergrootte */
+  color: white; /* Tekstkleur */
+  text-align: center; /* Tekst centreren */
+  padding: 14px 16px; /* Binnen- en buitenruimte rond de tekst */
+  text-decoration: none; /* Verwijder onderstreping van koppelingen */
+  border-right: 3px solid black; /* Rechtergrenslijn voor scheiding */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype */
 }
 
-/* Basisstijlen voor het dropdown-menu */
+/* Dit zijn de basisstijlen voor dropdown-menu's in de navigatiebalk. */
 .dropdown { 
-  float: left;
-  overflow: hidden;
-  border-right: 3px solid black;
+  float: left; /* Tekst links uitlijnen */
+  overflow: hidden; /* Verborgen overloop voor verborgen opties */
+  border-right: 3px solid black; /* Rechtergrenslijn voor scheiding */
 }
 
+/* Dit zijn de stijlen voor de knop in het dropdown-menu. */
 .dropdown .dropbtn {
-  font-size: 22px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  margin: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- 
+  font-size: 22px; /* Lettergrootte */
+  border: none; /* Geen rand */
+  outline: none; /* Geen focusomtrek */
+  color: white; /* Tekstkleur */
+  padding: 14px 16px; /* Binnen- en buitenruimte rond de tekst */
+  background-color: inherit; /* Overerven van de achtergrondkleur van de navigatiebalk */
+  margin: 0; /* Geen marges */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype */
 }
 
+/* Dit zijn de stijlen voor koppelingen en knoppen wanneer je eroverheen gaat met de muis. */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: lightblue;
-  color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- 
-
+  background-color: lightblue; /* Achtergrondkleur bij zweven */
+  color: black; /* Tekstkleur bij zweven */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype */
 }
 
-/* Stijlen voor het zichtbare deel van de dropdown */
+/* Dit zijn de stijlen voor het zichtbare deel van het dropdown-menu. */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-
-
-
+  display: none; /* Inhoud van dropdown standaard verbergen */
+  position: absolute; /* Absolute positionering om het dropdown-menu te plaatsen */
+  background-color: #f9f9f9; /* Achtergrondkleur van dropdown */
+  min-width: 160px; /* Minimale breedte van dropdown-menu */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Schaduweffect voor dropdown */
+  z-index: 1; /* Z-index om dropdown bovenop de rest van de inhoud te plaatsen */
 }
 
+/* Dit zijn de stijlen voor koppelingen binnen het dropdown-menu. */
 .dropdown-content a {
-  float: none;
-  color: white;
-  background-color: #333;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
+  float: none; /* Geen zwevend gedrag voor dropdown-koppelingen */
+  color: white; /* Tekstkleur */
+  background-color: #333; /* Achtergrondkleur */
+  padding: 12px 16px; /* Binnen- en buitenruimte rond de tekst */
+  text-decoration: none; /* Verwijder onderstreping van koppelingen */
+  display: block; /* Elk item in het dropdown-menu wordt weergegeven als een blok */
+  text-align: left; /* Tekst links uitlijnen */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype */
 }
 
-/* Hover-effect voor de dropdown-opties */
+/* Dit zijn de stijlen voor koppelingen binnen het dropdown-menu wanneer je eroverheen gaat met de muis. */
 .dropdown-content a:hover {
-  background-color: lightblue;
-  color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
+  background-color: lightblue; /* Achtergrondkleur bij zweven */
+  color: black; /* Tekstkleur bij zweven */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Lettertype */
 }
 
-/* Zorg ervoor dat de dropdown zichtbaar wordt wanneer je eroverheen beweegt */
+/* Zorg ervoor dat het dropdown-menu zichtbaar wordt wanneer je eroverheen beweegt. */
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: block; /* Inhoud van dropdown weergeven bij zweven */
 }
-

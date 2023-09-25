@@ -1,70 +1,84 @@
-<!DOCTYPE html> <!-- Homepagina -->
-<html> <!-- Hiermee open ik het coderen van mijn website-->
-    <head>
-        <link rel="stylesheet" type="text/css" href="/html en css bestanden/layout.css"> <!-- Link voor opmaak naar css bestand-->
-        <title> Homepagina </title> <!-- Hiermee geef ik mijn pagina een titel-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hiermee maak ik de site gebruikelijk voor telefoon-->
-        <link rel="icon" type="x-icon" href="/afbeeldingen/oudkaasje.png"> <!-- Hiermee stel ik het logo voor mijn site in-->
-    </head>
+<!DOCTYPE html> <!-- Dit geeft aan dat dit een HTML5-document is. -->
+    <html> <!-- Hiermee begint de HTML-structuur van de pagina. -->
+        <head>
+            <link rel="stylesheet" type="text/css" href="/html en css bestanden/layout.css"> 
+            <!-- Dit is een link naar je externe CSS-bestand voor de opmaak van de pagina. -->
+            <title> Homepagina </title>
+            <!-- De titel die wordt weergegeven in de browser tab. -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Dit stelt de viewport in voor responsieve weergave op verschillende schermformaten. -->
+            <link rel="icon" type="x-icon" href="/afbeeldingen/oudkaasje.png">
+            <!-- Dit stelt het favicon (pictogram in de browser tab) in voor je site. -->
+        </head>
+    
+        <body id="body1">
+            <!-- Hier begint de hoofdtekst van de webpagina. -->
+  
+       <div class="navbar"> <!-- Hiermee verwijs ik naar de CSS code onder ¨.navbar¨-->
+        <a href="/index.html">Home</a>    <!-- Een link naar de startpagina, "Home". -->
+          
 
-     <body id="body1">
-
-       <div class="navbar">
-        <a href="/index.html">Home</a>
-        
-        <div class="dropdown">
-          <button class="dropbtn">Basis info computers klas 5
-            <i class="fa fa-caret-down"></i>
+        <!-- Dropdown-menu voor "Basis info computers klas 5". -->
+        <div class="dropdown"> <!-- Hiermee verwijs ik naar de CSS code onder ¨.dropdown¨-->
+          <button class="dropbtn"> <!-- Hiermee verwijs ik naar de CSS code onder ¨.dropbtn¨-->
+            Basis info computers klas 5
+            <i class="fa fa-caret-down"></i> <!-- Een pijl-icoon om aan te geven dat er een dropdown-menu is. -->
           </button>
-          <div class="dropdown-content">
-            <a href="/html en css bestanden/algemeneinfo.html">Algemene info</a>
-            <a href="/html en css bestanden/bestandsformaten.html">Bestandsformaten</a>
-            <a href="/html en css bestanden/binairstelsel.html">Binair stelsel</a>
-            <a href="/html en css bestanden/compressie.html">Compressie</a>
-            <a href="/html en css bestanden/kleurmodellen.html">Kleurmodellen</a>
+          <div class="dropdown-content"> <!-- Hiermee verwijs ik naar de CSS code onder ¨.dropdown-content¨-->
+            <a href="/html en css bestanden/algemeneinfo.html">Algemene info</a> <!-- Link naar de desbetreffende pagina-->
+            <a href="/html en css bestanden/bestandsformaten.html">Bestandsformaten</a> <!-- Link naar de desbetreffende pagina-->
+            <a href="/html en css bestanden/binairstelsel.html">Binair stelsel</a> <!-- Link naar de desbetreffende pagina-->
+            <a href="/html en css bestanden/compressie.html">Compressie</a> <!-- Link naar de desbetreffende pagina-->
+            <a href="/html en css bestanden/kleurmodellen.html">Kleurmodellen</a> <!-- Link naar de desbetreffende pagina-->
           </div>
       </div> 
       
-      <div class="dropdown">
-          <button class="dropbtn">Computerarchitectuur 
-            <i class="fa fa-caret-down"></i>
+      <!-- Dropdown-menu voor "Copmuterarchitectuur". -->
+      <div class="dropdown">  <!-- Hiermee verwijs ik naar de CSS code onder ¨.dropdown¨-->
+          <button class="dropbtn"> <!-- Hiermee verwijs ik naar de CSS code onder ¨.dropbtn¨-->
+            Computerarchitectuur 
+            <i class="fa fa-caret-down"></i> <!-- Een pijl-icoon om aan te geven dat er een dropdown-menu is. -->
           </button>
-          <div class="dropdown-content">
-            <a href="/html en css bestanden/onderdelen.html">Onderdelen computer</a>
-            <a href="/html en css bestanden/software.html">Software</a>
-            <a href="/html en css bestanden/databases.html">Databases</a>
-            <a href="/html en css bestanden/kabelsenplugin.html">Kabels en plugin</a>
-            <a href="/html en css bestanden/api.html">API</a>
+          <div class="dropdown-content"> <!-- Hiermee verwijs ik naar de CSS code onder ¨.dropdown-content¨-->
+            <a href="/html en css bestanden/onderdelen.html">Onderdelen computer</a> <!-- Link naar de desbetreffende pagina-->
+            <a href="/html en css bestanden/software.html">Software</a> <!-- Link naar de desbetreffende pagina-->
+            <a href="/html en css bestanden/databases.html">Databases</a> <!-- Link naar de desbetreffende pagina-->
+            <a href="/html en css bestanden/kabelsenplugin.html">Kabels en plugin</a> <!-- Link naar de desbetreffende pagina-->
+            <a href="/html en css bestanden/api.html">API</a> <!-- Link naar de desbetreffende pagina-->
           </div>
       </div> 
 
-      <div class="dropdown">
-        <button class="dropbtn">OSI-Model
-          <i class="fa fa-caret-down"></i>
+      <!-- Dropdown-menu voor "OSI-Model". -->
+      <div class="dropdown"> <!-- Hiermee verwijs ik naar de CSS code onder ¨.dropdown¨-->
+        <button class="dropbtn"> <!-- Hiermee verwijs ik naar de CSS code onder ¨.dropbtn¨-->
+          OSI-Model
+          <i class="fa fa-caret-down"></i> <!-- Een pijl-icoon om aan te geven dat er een dropdown-menu is. -->
         </button>
-        <div class="dropdown-content">
-          <a href="/html en css bestanden/OSI-model/osimodel.html">Wat is het OSI-Model?</a>
-          <a href="/html en css bestanden/OSI-model/toepassingslaag.html">Toepassingslaag</a>
-          <a href="/html en css bestanden/OSI-model/presentatielaag.html">Presentatie laag</a>
-          <a href="/html en css bestanden/OSI-model/sessielaag.html">Sessie laag</a>
-          <a href="/html en css bestanden/OSI-model/transportlaag.html">Transport laag</a>
-          <a href="/html en css bestanden/OSI-model/netwerklaag.html">Netwerk laag</a>
-          <a href="/html en css bestanden/OSI-model/datalinklaag.html">Datalink laag</a>
-          <a href="/html en css bestanden/OSI-model/fysiekelaag.html">Fysieke laag</a>
+        <div class="dropdown-content"> <!-- Hiermee verwijs ik naar de CSS code onder ¨.dropdown-content¨-->
+          <a href="/html en css bestanden/OSI-model/osimodel.html">Wat is het OSI-Model?</a> <!-- Link naar de desbetreffende pagina-->
+          <a href="/html en css bestanden/OSI-model/toepassingslaag.html">Toepassingslaag</a> <!-- Link naar de desbetreffende pagina-->
+          <a href="/html en css bestanden/OSI-model/presentatielaag.html">Presentatie laag</a> <!-- Link naar de desbetreffende pagina-->
+          <a href="/html en css bestanden/OSI-model/sessielaag.html">Sessie laag</a> <!-- Link naar de desbetreffende pagina-->
+          <a href="/html en css bestanden/OSI-model/transportlaag.html">Transport laag</a> <!-- Link naar de desbetreffende pagina-->
+          <a href="/html en css bestanden/OSI-model/netwerklaag.html">Netwerk laag</a> <!-- Link naar de desbetreffende pagina-->
+          <a href="/html en css bestanden/OSI-model/datalinklaag.html">Datalink laag</a> <!-- Link naar de desbetreffende pagina-->
+          <a href="/html en css bestanden/OSI-model/fysiekelaag.html">Fysieke laag</a> <!-- Link naar de desbetreffende pagina-->
         </div>
     </div> 
-    <div class="navbar">
-      <a href="/html en css bestanden/3lagenmodel.html">3-lagenmodel</a>
+    <div class="navbar"> <!-- Hiermee verwijs ik naar de CSS code onder ¨navbar¨-->
+      <a href="/html en css bestanden/3lagenmodel.html">3-lagenmodel</a> <!-- Een link naar de pagina 3lagenmodel. -->
     </div>
       </div>
        
 
-       <h1> Informatica <!-- Hiermee geef ik mijn pagina een hoofdkopje--> 
-       </h1>
+       <h1> <!-- Hiermee open ik mijn kopje--> 
+        Informatica <!-- Hiermee geef ik mijn pagina een hoofdkopje--> 
+       </h1> <!-- Hiermee sluit ik mijn kopje--> 
 
        <img src="/afbeeldingen/oudkaasje.png" alt="OudKaasje" style="float:right;width:500px;height: 400px;"> <!-- Hiermee voeg ik de afbeelding oudkaasje toe aan mijn pagina en zorg ik waar die te staan komt met style-->
 
-       <p> Hallo en welkom op mijn site OudKaasje! Mijn naam is Jochem Versteegen, leerling uit
+       <p>  <!-- Hiermee open ik mijn paragraaf-->
+         Hallo en welkom op mijn site OudKaasje! Mijn naam is Jochem Versteegen, leerling uit
         VWO 6 van het Vlietland college in Leiden. Op deze site ga ik je allemaal interessante dingen<br> <!-- Met br zorg ik ervoor dat de regel stopt en eronder door gaat--> 
         uitleggen met 1 groot gezamelijk onderwerp; informatica! Op deze site worden er een 
         aantal dingen uitgelegd die allemaal zijn onder te verdelen in verschillende onderwerpen: <br>
@@ -84,17 +98,20 @@
          <br>
          Op iedere pagina zie je ook een youtube video inbeeld die je kan kijken om nog meer informatie op te doen over het desbetreffende
          onderwerp.
-    </p> <!-- In deze paragraaf leid ik het onderwerp in en geef ik een inhoud van wat gaat komen-->
+    </p> <!-- Hiermee sluit ik mijn paragraaf-->
+    
     <iframe src="instructie.mp4" style="float:right;width:600px;height: 300px;"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>>
   </iframe>
-    <p> Je ziet hier op de pagine ook nog een filmpje waarin ik jullie meeneem door de website en alles nog een keertje uitleg
+    
+  <p> <!-- Hier start ik weer een nieuwe paragraaf--> 
+     Je ziet hier op de pagine ook nog een filmpje waarin ik jullie meeneem door de website en alles nog een keertje uitleg
       wat waar staat. Als u iets niet weet te vinden, raad ik u aan om onder elk kopje te kijken naar onderwerpen
       die bij elkaar horen. Als u met mij in contact wilt komen, of iets anders aan mij mee wilt delen, staat aan de
       onderkant van iedere pagina een footer met daarin een link naar mijn mail adress.
 
       
 
-    </p> <!-- dit is een nieuwe paragraaf weer gestart met <p>-->
+    </p> <!-- hier sluit ik mijn paragraaf weer af-->
     
     <p>Ik hoop dat u veel plezier beleeft aan het lezen van mijn website, en ik weet zeker dat u van alle informatie
       wat op zal steken!
